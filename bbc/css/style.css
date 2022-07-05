@@ -1,0 +1,129 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+html, body {
+  height: 100%;
+}
+.hero {
+  height: 45%;
+  width: 100%;
+  border: 2px solid black;
+}
+.bottom-content {
+  height: 45%;
+  width: 100%;
+  border: 2px solid red;
+}
+.hero-content {
+  height: 100%;
+  width: 50%;
+  border: 2px solid orange;
+  float: left;
+}
+.gallery {
+  height: 50%;
+  width: 50%;
+  border: 2px solid green;
+  float: left;
+}
+.left {
+  height: 100%;
+  width: 33.33%;
+  border: 2px solid red;
+  float: left;
+}
+.middle {
+  height: 100%;
+  width: 33.33%;
+  border: 2px solid green;
+  float: left;
+}
+.right {
+  height: 100%;
+  width: 33.33%;
+  border: 2px solid blue;
+  float: left;
+}
+.hero-content-split {
+  height: 100%;
+  width: 50%;
+  border: 2px solid green;
+  float: left;
+}
+.short {
+  height: 33.33%;
+  width: 100%;
+  border: 2px solid yellow;
+  float: left;
+}
+.tall {
+  height: 66.66%;
+  width: 100%;
+  border: 2px solid yellow;
+  float: left;
+}
+
+.header-left{
+  width: 20%;
+  height: 100%;
+  border: 2px solid yellow;
+  float: left;
+}
+.header-middle{
+  width: 60%;
+  height: 100%;
+  border: 2px solid blue;
+  float: left;
+  padding: 2rem;
+}
+.header-right{
+  width: 20%;
+  height: 100%;
+  border: 2px solid red;
+  float: left;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  height: 10%;
+  width: 100%;
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+img, video {
+  height: auto;
+  max-width: 100%;
+}
